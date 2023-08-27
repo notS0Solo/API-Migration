@@ -1,0 +1,7 @@
+name: 'SWAPIMigration'
+type: module
+description: 'A module to migrate data from SWAPI(Star Wars API)'
+package: Drupal Code Challenges
+core_version_requirement: ^10
+dependencies:
+  - drupal:migrate
