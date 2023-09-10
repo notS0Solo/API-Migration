@@ -20,7 +20,7 @@ dependencies:
     - link
 id: node.people.default
 targetEntityType: node
-bundle: tit
+bundle: people
 mode: default
 content:
   field_birth_year:
