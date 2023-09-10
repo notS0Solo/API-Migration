@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_species
+    - node.type.people
+id: node.people.field_species
+field_name: field_species
+entity_type: node
+bundle: people
+label: Species
+description: 'A list of species that are in this film.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node_type'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

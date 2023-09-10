@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_characters
+    - node.type.films
+id: node.films.field_characters
+field_name: field_characters
+entity_type: node
+bundle: films
+label: Characters
+description: 'A list of characters that in this film.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node_type'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

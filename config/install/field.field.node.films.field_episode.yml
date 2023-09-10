@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_episode
+    - node.type.films
+id: node.films.field_episode
+field_name: field_episode
+entity_type: node
+bundle: films
+label: 'Episode #'
+description: 'The episode number of this film.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

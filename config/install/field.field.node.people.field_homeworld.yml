@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_homeworld
+    - node.type.people
+id: node.people.field_homeworld
+field_name: field_homeworld
+entity_type: node
+bundle: people
+label: Homeworld
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node_type'
+  handler_settings: {  }
+field_type: entity_reference

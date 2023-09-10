@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_orbital_period
+    - node.type.planets
+id: node.planets.field_orbital_period
+field_name: field_orbital_period
+entity_type: node
+bundle: planets
+label: 'Orbital Period'
+description: 'The number of standard days it takes for this planet to complete a single orbit of its local star.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_max_atmospheric_speed
+    - node.type.vehicles
+id: node.vehicles.field_max_atmospheric_speed
+field_name: field_max_atmospheric_speed
+entity_type: node
+bundle: vehicles
+label: 'Max atmospheric speed'
+description: 'The maximum speed of this vehicle in the atmosphere.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

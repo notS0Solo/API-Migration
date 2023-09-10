@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vehicles
+    - node.type.people
+id: node.people.field_vehicles
+field_name: field_vehicles
+entity_type: node
+bundle: people
+label: Vehicles
+description: 'A list of vehicles that this person has piloted.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node_type'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference
