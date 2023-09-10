@@ -4,7 +4,7 @@ dependencies:
   config:
     - field.storage.node.field_pilots
     - node.type.starships
-    - node.type.title
+    - node.type.people
 id: node.starships.field_pilots
 field_name: field_pilots
 entity_type: node

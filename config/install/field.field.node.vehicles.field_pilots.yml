@@ -3,7 +3,7 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_pilots
-    - node.type.title
+    - node.type.people
     - node.type.vehicles
 id: node.vehicles.field_pilots
 field_name: field_pilots
