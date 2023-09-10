@@ -4,7 +4,7 @@ dependencies:
   config:
     - field.storage.node.field_people
     - node.type.species
-    - node.type.title
+    - node.type.people
 id: node.species.field_people
 field_name: field_people
 entity_type: node
