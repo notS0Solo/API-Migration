@@ -8,7 +8,7 @@ third_party_settings:
     available_menus: {  }
     parent: ''
 name: People
-type: People
+type: people
 description: 'People Resources'
 help: ''
 new_revision: true
