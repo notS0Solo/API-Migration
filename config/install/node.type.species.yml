@@ -9,7 +9,7 @@ third_party_settings:
     parent: ''
 name: Species
 type: species
-description: 'Species Resources'
+description: 'A list of Species Resources, using data from The Star Wars API(SWAPI)'
 help: ''
 new_revision: true
 preview_mode: 1

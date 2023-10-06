@@ -4,6 +4,7 @@ dependencies:
   config:
     - field.storage.node.field_characters
     - node.type.films
+    - node.type.title
 id: node.films.field_characters
 field_name: field_characters
 entity_type: node
@@ -15,8 +16,13 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:node_type'
+  handler: 'default:node'
   handler_settings:
-    target_bundles: null
+    target_bundles:
+      title: title
+    sort:
+      field: _none
+      direction: ASC
     auto_create: false
+    auto_create_bundle: ''
 field_type: entity_reference

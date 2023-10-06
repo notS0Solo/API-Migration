@@ -3,15 +3,15 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_url
-    - node.type.planets
+    - node.type.title
   module:
     - link
-id: node.planets.field_url
+id: node.title.field_url
 field_name: field_url
 entity_type: node
-bundle: planets
+bundle: title
 label: URL
-description: 'The SWAPI URL for this planet.'
+description: 'The SWAPI URL for this person.'
 required: false
 translatable: false
 default_value: {  }

@@ -2,15 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_planets
-    - node.type.films
-    - node.type.planets
-id: node.films.field_planets
-field_name: field_planets
+    - field.storage.node.field_species
+    - node.type.species
+    - node.type.title
+id: node.title.field_species
+field_name: field_species
 entity_type: node
-bundle: films
-label: Planets
-description: 'A list of planets that are in this film.'
+bundle: title
+label: Species
+description: 'A list of films that this species has appeared in. '
 required: false
 translatable: false
 default_value: {  }
@@ -19,7 +19,7 @@ settings:
   handler: 'default:node'
   handler_settings:
     target_bundles:
-      planets: planets
+      species: species
     sort:
       field: _none
       direction: ASC

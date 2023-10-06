@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_films
+    - node.type.films
     - node.type.starships
 id: node.starships.field_films
 field_name: field_films
@@ -18,7 +19,7 @@ settings:
   handler: 'default:node'
   handler_settings:
     target_bundles:
-      starships: starships
+      films: films
     sort:
       field: _none
       direction: ASC

@@ -2,15 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_planets
-    - node.type.films
-    - node.type.planets
-id: node.films.field_planets
-field_name: field_planets
+    - field.storage.node.field_vehicles
+    - node.type.title
+    - node.type.vehicles
+id: node.title.field_vehicles
+field_name: field_vehicles
 entity_type: node
-bundle: films
-label: Planets
-description: 'A list of planets that are in this film.'
+bundle: title
+label: Vehicles
+description: 'A list of vehicles that this person has piloted.'
 required: false
 translatable: false
 default_value: {  }
@@ -19,7 +19,7 @@ settings:
   handler: 'default:node'
   handler_settings:
     target_bundles:
-      planets: planets
+      vehicles: vehicles
     sort:
       field: _none
       direction: ASC

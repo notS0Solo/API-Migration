@@ -2,15 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_planets
-    - node.type.films
+    - field.storage.node.field_homeworld
     - node.type.planets
-id: node.films.field_planets
-field_name: field_planets
+    - node.type.title
+id: node.title.field_homeworld
+field_name: field_homeworld
 entity_type: node
-bundle: films
-label: Planets
-description: 'A list of planets that are in this film.'
+bundle: title
+label: Homeworld
+description: 'The planet that this person was born on or inhabits.'
 required: false
 translatable: false
 default_value: {  }
