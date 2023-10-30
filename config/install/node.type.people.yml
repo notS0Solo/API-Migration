@@ -1,3 +1,4 @@
+uuid: 46d6ca60-e1dd-4461-8f8a-8e9567269601
 langcode: en
 status: true
 dependencies:
@@ -7,9 +8,11 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
+_core:
+  default_config_hash: ySF9y_Kz2PF9VUXwhxA5bpIbaIxG71p4tyQCtrYlI60
 name: People
 type: people
-description: 'People Resources'
+description: 'A list of People Resources, using data from The Star Wars API(SWAPI).'
 help: ''
 new_revision: true
 preview_mode: 1
