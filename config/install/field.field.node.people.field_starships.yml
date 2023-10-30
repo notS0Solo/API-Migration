@@ -4,6 +4,9 @@ dependencies:
   config:
     - field.storage.node.field_starships
     - node.type.people
+    - node.type.starships
+_core:
+  default_config_hash: IB-lNOEk8V_U6uvliI3YbVIGmSvKbvLOZCydSujPVgI
 id: node.people.field_starships
 field_name: field_starships
 entity_type: node
@@ -15,8 +18,13 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:node_type'
+  handler: 'default:node'
   handler_settings:
-    target_bundles: null
+    target_bundles:
+      starships: starships
+    sort:
+      field: _none
+      direction: ASC
     auto_create: false
+    auto_create_bundle: ''
 field_type: entity_reference

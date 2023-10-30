@@ -4,6 +4,9 @@ dependencies:
   config:
     - field.storage.node.field_species
     - node.type.people
+    - node.type.species
+_core:
+  default_config_hash: Hv4tI46-1e2PjLdvD2Bro6lKf5Xu8bQQB0v3j64lhys
 id: node.people.field_species
 field_name: field_species
 entity_type: node
@@ -15,8 +18,13 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:node_type'
+  handler: 'default:node'
   handler_settings:
-    target_bundles: null
+    target_bundles:
+      species: species
+    sort:
+      field: _none
+      direction: ASC
     auto_create: false
+    auto_create_bundle: ''
 field_type: entity_reference

@@ -4,6 +4,9 @@ dependencies:
   config:
     - field.storage.node.field_vehicles
     - node.type.people
+    - node.type.vehicles
+_core:
+  default_config_hash: HGM1ED2De9K8MedXwBdnU40-4Ft4sNuIOFeQ8G_5FKc
 id: node.people.field_vehicles
 field_name: field_vehicles
 entity_type: node
@@ -15,8 +18,13 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:node_type'
+  handler: 'default:node'
   handler_settings:
-    target_bundles: null
+    target_bundles:
+      vehicles: vehicles
+    sort:
+      field: _none
+      direction: ASC
     auto_create: false
+    auto_create_bundle: ''
 field_type: entity_reference

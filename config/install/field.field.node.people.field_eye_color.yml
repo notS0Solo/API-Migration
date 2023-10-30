@@ -4,6 +4,8 @@ dependencies:
   config:
     - field.storage.node.field_eye_color
     - node.type.people
+_core:
+  default_config_hash: W2WtZo-0qDRaAdmjl0GVTcBfey90f95-9jAWxqemVt0
 id: node.people.field_eye_color
 field_name: field_eye_color
 entity_type: node

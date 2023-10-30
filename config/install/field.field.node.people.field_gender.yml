@@ -6,6 +6,8 @@ dependencies:
     - node.type.people
   module:
     - options
+_core:
+  default_config_hash: pV9deAoc1qUnnptBMg9_PmG9ToD63f2sxEXtXg9e_Bs
 id: node.people.field_gender
 field_name: field_gender
 entity_type: node

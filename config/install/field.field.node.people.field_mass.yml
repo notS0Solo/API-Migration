@@ -4,6 +4,8 @@ dependencies:
   config:
     - field.storage.node.field_mass
     - node.type.people
+_core:
+  default_config_hash: lI0DkoKC-BA8E80cJYmVyc_qkPqvgD2ssC-1nYCo5lI
 id: node.people.field_mass
 field_name: field_mass
 entity_type: node
