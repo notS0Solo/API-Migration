@@ -3,6 +3,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: Lx64HWBnrWyRf3DarUGnI6uTEGgFb20dIDu_oMq_tig
 id: node.field_pilots
 field_name: field_pilots
 entity_type: node
@@ -11,7 +13,7 @@ settings:
   target_type: node
 module: core
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

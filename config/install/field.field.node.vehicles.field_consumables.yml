@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_consum
+    - field.storage.node.field_consumables
     - node.type.vehicles
-id: node.vehicles.field_consum
-field_name: field_consum
+id: node.vehicles.field_consumables
+field_name: field_consumables
 entity_type: node
 bundle: vehicles
 label: Consumables
-description: 'The maximum length of time that this vehicle can provide consumables for its entire crew without having to resupply'
+description: 'The maximum length of time that this vehicle can provide consumables for its entire crew without having to resupply.'
 required: false
 translatable: false
 default_value: {  }

@@ -2,10 +2,10 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_consum
+    - field.storage.node.field_consumables
     - node.type.starships
-id: node.starships.field_consum
-field_name: field_consum
+id: node.starships.field_consumables
+field_name: field_consumables
 entity_type: node
 bundle: starships
 label: Consumables

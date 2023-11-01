@@ -3,14 +3,13 @@ status: true
 dependencies:
   module:
     - node
-id: node.field_consum
-field_name: field_consum
+id: node.field_cargo_capacity
+field_name: field_cargo_capacity
 entity_type: node
-type: string
+type: integer
 settings:
-  max_length: 255
-  case_sensitive: false
-  is_ascii: false
+  unsigned: false
+  size: normal
 module: core
 locked: false
 cardinality: 1

@@ -3,13 +3,14 @@ status: true
 dependencies:
   module:
     - node
-id: node.field_cargo_c
-field_name: field_cargo_c
+id: node.field_starship_class
+field_name: field_starship_class
 entity_type: node
-type: integer
+type: string
 settings:
-  unsigned: false
-  size: normal
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_passen
+    - field.storage.node.field_cargo_capacity
     - node.type.vehicles
-id: node.vehicles.field_passen
-field_name: field_passen
+id: node.vehicles.field_cargo_capacity
+field_name: field_cargo_capacity
 entity_type: node
 bundle: vehicles
-label: Passengers
-description: 'The number of non-essential people this vehicle can transport.'
+label: 'Cargo Capacity'
+description: 'The maximum number of kilograms that this vehicle can transport.'
 required: false
 translatable: false
 default_value: {  }
@@ -18,5 +18,5 @@ settings:
   min: null
   max: null
   prefix: ''
-  suffix: ''
+  suffix: kg
 field_type: integer

@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_cargo_c
+    - field.storage.node.field_passengers
     - node.type.starships
-id: node.starships.field_cargo_c
-field_name: field_cargo_c
+id: node.starships.field_passengers
+field_name: field_passengers
 entity_type: node
 bundle: starships
-label: 'Cargo capacity'
-description: 'The maximum number of kilograms that this starship can transport.'
+label: Passengers
+description: 'The number of non-essential people this starship can transport.'
 required: false
 translatable: false
 default_value: {  }
@@ -18,5 +18,5 @@ settings:
   min: null
   max: null
   prefix: ''
-  suffix: kg
+  suffix: ''
 field_type: integer

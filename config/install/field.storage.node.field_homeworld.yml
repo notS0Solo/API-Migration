@@ -3,6 +3,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: mLiNZ-yKOO2KMigWEBfDkPw6qpcRt5ATCU0wYiXzmsk
 id: node.field_homeworld
 field_name: field_homeworld
 entity_type: node
@@ -11,7 +13,7 @@ settings:
   target_type: node
 module: core
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

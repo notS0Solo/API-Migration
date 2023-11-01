@@ -6,10 +6,10 @@ dependencies:
 id: node.field_hyperdrive_rating
 field_name: field_hyperdrive_rating
 entity_type: node
-type: integer
+type: decimal
 settings:
-  unsigned: false
-  size: normal
+  precision: 10
+  scale: 2
 module: core
 locked: false
 cardinality: 1

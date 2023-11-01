@@ -3,8 +3,8 @@ status: true
 dependencies:
   module:
     - node
-id: node.field_vehicle_
-field_name: field_vehicle_
+id: node.field_vehicle_class
+field_name: field_vehicle_class
 entity_type: node
 type: string
 settings:

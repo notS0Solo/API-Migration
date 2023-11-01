@@ -3,8 +3,8 @@ status: true
 dependencies:
   module:
     - node
-id: node.field_passen
-field_name: field_passen
+id: node.field_passengers
+field_name: field_passengers
 entity_type: node
 type: integer
 settings:

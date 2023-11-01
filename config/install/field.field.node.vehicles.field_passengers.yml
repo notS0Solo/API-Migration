@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_passen
-    - node.type.starships
-id: node.starships.field_passen
-field_name: field_passen
+    - field.storage.node.field_passengers
+    - node.type.vehicles
+id: node.vehicles.field_passengers
+field_name: field_passengers
 entity_type: node
-bundle: starships
+bundle: vehicles
 label: Passengers
-description: 'The number of non-essential people this starship can transport'
+description: 'The number of non-essential people this vehicle can transport.'
 required: false
 translatable: false
 default_value: {  }
