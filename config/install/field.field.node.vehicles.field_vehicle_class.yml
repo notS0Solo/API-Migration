@@ -2,10 +2,10 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_vehicle_
+    - field.storage.node.field_vehicle_class
     - node.type.vehicles
-id: node.vehicles.field_vehicle_
-field_name: field_vehicle_
+id: node.vehicles.field_vehicle_class
+field_name: field_vehicle_class
 entity_type: node
 bundle: vehicles
 label: 'Vehicle class'
