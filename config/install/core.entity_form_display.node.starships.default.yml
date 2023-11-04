@@ -2,8 +2,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.starships.field_cargo_c
-    - field.field.node.starships.field_consum
+    - field.field.node.starships.field_cargo_capacity
+    - field.field.node.starships.field_consumables
     - field.field.node.starships.field_cost_in_credits
     - field.field.node.starships.field_crew
     - field.field.node.starships.field_films
@@ -12,9 +12,9 @@ dependencies:
     - field.field.node.starships.field_manufacturer
     - field.field.node.starships.field_max_atmospheric_speed
     - field.field.node.starships.field_model
-    - field.field.node.starships.field_passen
+    - field.field.node.starships.field_passengers
     - field.field.node.starships.field_pilots
-    - field.field.node.starships.field_starship_c
+    - field.field.node.starships.field_starship_class
     - node.type.starships
 id: node.starships.default
 targetEntityType: node

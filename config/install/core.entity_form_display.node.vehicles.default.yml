@@ -2,8 +2,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.vehicles.field_cargo_c
-    - field.field.node.vehicles.field_consum
+    - field.field.node.vehicles.field_cargo_capacity
+    - field.field.node.vehicles.field_consumables
     - field.field.node.vehicles.field_cost_in_credits
     - field.field.node.vehicles.field_crew
     - field.field.node.vehicles.field_films
@@ -11,10 +11,10 @@ dependencies:
     - field.field.node.vehicles.field_manufacturer
     - field.field.node.vehicles.field_max_atmospheric_speed
     - field.field.node.vehicles.field_model
-    - field.field.node.vehicles.field_passen
+    - field.field.node.vehicles.field_passengers
     - field.field.node.vehicles.field_pilots
     - field.field.node.vehicles.field_url
-    - field.field.node.vehicles.field_vehicle_
+    - field.field.node.vehicles.field_vehicle_class
     - node.type.vehicles
   module:
     - link
