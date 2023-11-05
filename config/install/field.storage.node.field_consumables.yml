@@ -3,6 +3,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: myxMxTrAKsXbJzng1J7xNDD8aO-14NpOOIKzTRQsB3k
 id: node.field_consumables
 field_name: field_consumables
 entity_type: node

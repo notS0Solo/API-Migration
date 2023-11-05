@@ -3,6 +3,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: lRyPFjOVycNK9cXfdGR7uRU0LI-utboouXTrwbNMT98
 id: node.field_average_lifespan
 field_name: field_average_lifespan
 entity_type: node

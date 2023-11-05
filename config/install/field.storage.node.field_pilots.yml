@@ -4,7 +4,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: Lx64HWBnrWyRf3DarUGnI6uTEGgFb20dIDu_oMq_tig
+  default_config_hash: 49c-VtT60YZtDtwqmRL0VXnTgqvdT87qkXjCj9Tc7_E
 id: node.field_pilots
 field_name: field_pilots
 entity_type: node

@@ -3,6 +3,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: uNJ5EZCV4lfL31DcBg7XkPQp-D0znOcLqDY-8RUJ9Is
 id: node.field_hyperdrive_rating
 field_name: field_hyperdrive_rating
 entity_type: node

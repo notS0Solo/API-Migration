@@ -19,6 +19,8 @@ dependencies:
   module:
     - link
     - user
+_core:
+  default_config_hash: nVqzUonttcEnOdc58jkpqc2XML6H2GorZItPBXB7mNU
 id: node.vehicles.default
 targetEntityType: node
 bundle: vehicles
@@ -139,4 +141,8 @@ content:
     weight: 15
     region: content
 hidden:
+  field_cargo_capacity: true
+  field_consumables: true
+  field_passengers: true
+  field_vehicle_class: true
   links: true

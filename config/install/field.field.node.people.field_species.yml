@@ -6,13 +6,13 @@ dependencies:
     - node.type.people
     - node.type.species
 _core:
-  default_config_hash: Hv4tI46-1e2PjLdvD2Bro6lKf5Xu8bQQB0v3j64lhys
+  default_config_hash: pv8N3n4JUcIycFfsXAayjjh8HkN5TV_JVifpxmBiJ6k
 id: node.people.field_species
 field_name: field_species
 entity_type: node
 bundle: people
 label: Species
-description: 'A list of species that are in this film.'
+description: 'An array of species resource URLs that this person belongs to.'
 required: false
 translatable: false
 default_value: {  }

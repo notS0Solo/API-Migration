@@ -4,6 +4,8 @@ dependencies:
   config:
     - field.storage.node.field_starship_class
     - node.type.starships
+_core:
+  default_config_hash: fUBCPfmUM6b3kjhI3jWQkzES1v8mF1LEVR6KcA7LMbQ
 id: node.starships.field_starship_class
 field_name: field_starship_class
 entity_type: node

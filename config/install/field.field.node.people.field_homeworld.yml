@@ -6,13 +6,13 @@ dependencies:
     - node.type.people
     - node.type.planets
 _core:
-  default_config_hash: e_cRSzBMq0R2NfRGdC9ebavZI3Pkm0hW_EnSEjaNQ0U
+  default_config_hash: 4puxIYdFOenVCoAxNtyC-1VIGVgtGWPy8OahJlJm0OM
 id: node.people.field_homeworld
 field_name: field_homeworld
 entity_type: node
 bundle: people
 label: Homeworld
-description: ''
+description: 'The planet that this person was born on or inhabits.'
 required: false
 translatable: false
 default_value: {  }

@@ -4,7 +4,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: mLiNZ-yKOO2KMigWEBfDkPw6qpcRt5ATCU0wYiXzmsk
+  default_config_hash: xlRkiKB7vP4wqyk6Vm3xgIWf2HC1UfgdjaIgPv_pQkI
 id: node.field_homeworld
 field_name: field_homeworld
 entity_type: node

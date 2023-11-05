@@ -3,6 +3,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: hByLBfi-Jf2-sNSDs5rgiEGzF9TFhIYbUk959FQ5nKo
 id: node.field_max_atmospheric_speed
 field_name: field_max_atmospheric_speed
 entity_type: node

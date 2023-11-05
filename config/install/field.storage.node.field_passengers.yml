@@ -3,6 +3,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: IVZmXnjVqCCWWqu5qCr1afrYfcZlSf5BwKUWoXr0mgg
 id: node.field_passengers
 field_name: field_passengers
 entity_type: node

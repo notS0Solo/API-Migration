@@ -7,7 +7,7 @@ dependencies:
   module:
     - link
 _core:
-  default_config_hash: nbskPmJxV2oL3d5SnVvZJllzLcYbT2xgE8HU4gSAzRk
+  default_config_hash: leEJjBTsUtb2LOmLBGjivZ8L7GE-GFOIK3d9hoZeOAQ
 id: node.people.field_url
 field_name: field_url
 entity_type: node
@@ -19,6 +19,6 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  link_type: 17
   title: 1
+  link_type: 16
 field_type: link

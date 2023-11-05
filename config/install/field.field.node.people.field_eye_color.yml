@@ -5,13 +5,13 @@ dependencies:
     - field.storage.node.field_eye_color
     - node.type.people
 _core:
-  default_config_hash: W2WtZo-0qDRaAdmjl0GVTcBfey90f95-9jAWxqemVt0
+  default_config_hash: _ualPwkm3DQqmd112ZsPyVRzpAp3DWAq3ezrZMhzncM
 id: node.people.field_eye_color
 field_name: field_eye_color
 entity_type: node
 bundle: people
 label: 'Eye Color'
-description: ''
+description: 'The eye color of this person.  Set to "unknown" if not known or "n/a" if the person does not have an eye.'
 required: false
 translatable: false
 default_value: {  }

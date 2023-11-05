@@ -4,11 +4,13 @@ dependencies:
   config:
     - field.storage.node.field_max_atmospheric_speed
     - node.type.starships
+_core:
+  default_config_hash: RK2VniV1JusxyTwf4tB0BgkFTDWQssSWevLlaF7KPxI
 id: node.starships.field_max_atmospheric_speed
 field_name: field_max_atmospheric_speed
 entity_type: node
 bundle: starships
-label: 'Max atmospheric speed'
+label: 'Max Atmospheric Speed'
 description: 'The maximum speed of this starship in the atmosphere. "N/A" if this starship is incapable of atmospheric flight.'
 required: false
 translatable: false
