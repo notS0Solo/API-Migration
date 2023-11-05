@@ -4,7 +4,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: 3akKqAQKEYSZgBTsJwCgJQo6PwtykC2iz_kBvSVKp0Q
+  default_config_hash: ypySDLiB_4pfvtbukW5xHPXk_S1dvsvjy2Xu71zaVDo
 id: node.field_starship_class
 field_name: field_starship_class
 entity_type: node

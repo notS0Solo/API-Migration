@@ -4,11 +4,13 @@ dependencies:
   config:
     - field.storage.node.field_eye_colors
     - node.type.species
+_core:
+  default_config_hash: mGJod4xnN695fL8REbHOYx-anbzzl4JVrSEZgE3IVtw
 id: node.species.field_eye_colors
 field_name: field_eye_colors
 entity_type: node
 bundle: species
-label: 'Eye colors'
+label: 'Eye Colors'
 description: 'A comma-separated string of common eye colors for this species, "none" if this species does not typically have eyes.'
 required: false
 translatable: false

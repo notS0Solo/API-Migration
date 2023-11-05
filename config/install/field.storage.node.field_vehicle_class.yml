@@ -4,7 +4,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: _qMdoNttrcl01IncpZrwnjs4bRY-4lVOQ0DCiHkrOKM
+  default_config_hash: rK2koeX8pSnAY4qp_YQYzlpX131tVSFRc_iQkAXIH2I
 id: node.field_vehicle_class
 field_name: field_vehicle_class
 entity_type: node

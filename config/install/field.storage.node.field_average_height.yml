@@ -4,7 +4,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: LjZIug1yGQ-QZjFHxqkDY17gLbStbhkKpuqWxcfUjC4
+  default_config_hash: GnJtEaBZFIGXUtLd8gcRAOp5Jf-5zsybCnoZY8l9pbE
 id: node.field_average_height
 field_name: field_average_height
 entity_type: node

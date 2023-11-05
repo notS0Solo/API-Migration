@@ -4,11 +4,13 @@ dependencies:
   config:
     - field.storage.node.field_hyperdrive_rating
     - node.type.starships
+_core:
+  default_config_hash: PaGnLBAZCd3aLPwEsTJqkvjy83GUArHRloyltsfVhsw
 id: node.starships.field_hyperdrive_rating
 field_name: field_hyperdrive_rating
 entity_type: node
 bundle: starships
-label: 'Hyperdrive rating'
+label: 'Hyperdrive Rating'
 description: 'The class of this starships hyperdrive.'
 required: false
 translatable: false
