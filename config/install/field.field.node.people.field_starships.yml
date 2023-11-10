@@ -5,8 +5,6 @@ dependencies:
     - field.storage.node.field_starships
     - node.type.people
     - node.type.starships
-_core:
-  default_config_hash: IB-lNOEk8V_U6uvliI3YbVIGmSvKbvLOZCydSujPVgI
 id: node.people.field_starships
 field_name: field_starships
 entity_type: node

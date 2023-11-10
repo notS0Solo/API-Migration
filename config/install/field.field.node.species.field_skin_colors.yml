@@ -4,8 +4,6 @@ dependencies:
   config:
     - field.storage.node.field_skin_colors
     - node.type.species
-_core:
-  default_config_hash: vNuCMI25xPp73v7hmcUoGjLkM53igug9X6Qyl6OqwjM
 id: node.species.field_skin_colors
 field_name: field_skin_colors
 entity_type: node

@@ -19,8 +19,6 @@ dependencies:
     - node.type.starships
   module:
     - user
-_core:
-  default_config_hash: rxkdrcGH8S5Iu2Z0HacoRElgHZmjxs4PA9dzL8vJAcw
 id: node.starships.default
 targetEntityType: node
 bundle: starships

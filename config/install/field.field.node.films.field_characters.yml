@@ -5,8 +5,6 @@ dependencies:
     - field.storage.node.field_characters
     - node.type.films
     - node.type.people
-_core:
-  default_config_hash: S85U1KM1-ambUJRpzKWYbICVmQnfBWEWi7UByig-3VA
 id: node.films.field_characters
 field_name: field_characters
 entity_type: node

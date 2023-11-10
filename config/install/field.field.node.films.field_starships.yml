@@ -5,8 +5,6 @@ dependencies:
     - field.storage.node.field_starships
     - node.type.films
     - node.type.starships
-_core:
-  default_config_hash: crcsnOaStFk8lDvYI2BdvEvwFpwlHi6q8Gctgx7G4IM
 id: node.films.field_starships
 field_name: field_starships
 entity_type: node

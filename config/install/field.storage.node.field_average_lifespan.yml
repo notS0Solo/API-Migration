@@ -3,8 +3,6 @@ status: true
 dependencies:
   module:
     - node
-_core:
-  default_config_hash: Sd-PpSJruxw19IXakA6f5svas4XhGaYnqDccfFurBPQ
 id: node.field_average_lifespan
 field_name: field_average_lifespan
 entity_type: node

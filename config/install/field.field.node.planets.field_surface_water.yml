@@ -4,8 +4,6 @@ dependencies:
   config:
     - field.storage.node.field_surface_water
     - node.type.planets
-_core:
-  default_config_hash: LymJKA3Rpdy6AS8rAB6k69uNxpGc4IDaOut0MM6Cv5A
 id: node.planets.field_surface_water
 field_name: field_surface_water
 entity_type: node

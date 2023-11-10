@@ -18,8 +18,6 @@ dependencies:
     - node.type.vehicles
   module:
     - link
-_core:
-  default_config_hash: bU-IhVQzi5EczQnepObXQLwYlfy6IVZIjOzAu6ZZwh0
 id: node.vehicles.default
 targetEntityType: node
 bundle: vehicles

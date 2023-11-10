@@ -19,8 +19,6 @@ dependencies:
   module:
     - link
     - user
-_core:
-  default_config_hash: nVqzUonttcEnOdc58jkpqc2XML6H2GorZItPBXB7mNU
 id: node.vehicles.default
 targetEntityType: node
 bundle: vehicles

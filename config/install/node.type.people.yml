@@ -7,8 +7,6 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-_core:
-  default_config_hash: ySF9y_Kz2PF9VUXwhxA5bpIbaIxG71p4tyQCtrYlI60
 name: People
 type: people
 description: 'A list of People Resources, using data from The Star Wars API(SWAPI).'

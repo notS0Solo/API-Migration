@@ -5,8 +5,6 @@ dependencies:
     - field.storage.node.field_vehicles
     - node.type.people
     - node.type.vehicles
-_core:
-  default_config_hash: HGM1ED2De9K8MedXwBdnU40-4Ft4sNuIOFeQ8G_5FKc
 id: node.people.field_vehicles
 field_name: field_vehicles
 entity_type: node

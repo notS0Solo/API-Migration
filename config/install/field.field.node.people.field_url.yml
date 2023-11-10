@@ -6,8 +6,6 @@ dependencies:
     - node.type.people
   module:
     - link
-_core:
-  default_config_hash: leEJjBTsUtb2LOmLBGjivZ8L7GE-GFOIK3d9hoZeOAQ
 id: node.people.field_url
 field_name: field_url
 entity_type: node

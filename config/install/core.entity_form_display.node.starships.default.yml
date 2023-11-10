@@ -17,8 +17,6 @@ dependencies:
     - field.field.node.starships.field_starship_class
     - field.field.node.starships.field_url
     - node.type.starships
-_core:
-  default_config_hash: KKybrmfDFf2U0b2J1JfTRE6mv0wPWcOtZg0NcwPuZ34
 id: node.starships.default
 targetEntityType: node
 bundle: starships

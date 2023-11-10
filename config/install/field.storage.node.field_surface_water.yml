@@ -3,8 +3,6 @@ status: true
 dependencies:
   module:
     - node
-_core:
-  default_config_hash: crpzxucIF23NvwEXYvJU1ykQqu8vkM9YZFCOxXUCR90
 id: node.field_surface_water
 field_name: field_surface_water
 entity_type: node

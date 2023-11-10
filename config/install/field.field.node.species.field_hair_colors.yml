@@ -4,8 +4,6 @@ dependencies:
   config:
     - field.storage.node.field_hair_colors
     - node.type.species
-_core:
-  default_config_hash: mNiVUKpR5oeIjeDm10dGmSlaFrRXPdDERoxFfuiynSI
 id: node.species.field_hair_colors
 field_name: field_hair_colors
 entity_type: node

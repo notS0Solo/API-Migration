@@ -3,8 +3,6 @@ status: true
 dependencies:
   module:
     - node
-_core:
-  default_config_hash: 9BwaI_CCx7j3DHv4PPSj1BmrwjnQtQJXMyByEnIS7go
 id: node.field_cargo_capacity
 field_name: field_cargo_capacity
 entity_type: node

@@ -4,8 +4,6 @@ dependencies:
   config:
     - field.storage.node.field_skin_color
     - node.type.people
-_core:
-  default_config_hash: RZ4pL-AKDIwA-QWRnIt7NNiEpcAXDZbNO7sC_X_MXVI
 id: node.people.field_skin_color
 field_name: field_skin_color
 entity_type: node

@@ -4,8 +4,6 @@ dependencies:
   config:
     - field.storage.node.field_vehicle_class
     - node.type.vehicles
-_core:
-  default_config_hash: 3uF4TmjFjkQ6pOHcyBL-qu6x-Mxve9X6QBr1B8JOjo8
 id: node.vehicles.field_vehicle_class
 field_name: field_vehicle_class
 entity_type: node

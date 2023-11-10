@@ -5,8 +5,6 @@ dependencies:
     - field.storage.node.field_homeworld
     - node.type.people
     - node.type.planets
-_core:
-  default_config_hash: 4puxIYdFOenVCoAxNtyC-1VIGVgtGWPy8OahJlJm0OM
 id: node.people.field_homeworld
 field_name: field_homeworld
 entity_type: node

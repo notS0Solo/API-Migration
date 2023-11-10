@@ -4,8 +4,6 @@ dependencies:
   config:
     - field.storage.node.field_average_lifespan
     - node.type.species
-_core:
-  default_config_hash: uvjJNA-c-rQvc43MlI6CQD-GK5S696Gw1enE0QX7LbM
 id: node.species.field_average_lifespan
 field_name: field_average_lifespan
 entity_type: node

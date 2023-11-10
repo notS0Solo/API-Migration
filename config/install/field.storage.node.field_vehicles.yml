@@ -3,8 +3,6 @@ status: true
 dependencies:
   module:
     - node
-_core:
-  default_config_hash: qa6diuP5y6hRn6WgVatvBea4XDOOW5YHmcgzPz3KtYs
 id: node.field_vehicles
 field_name: field_vehicles
 entity_type: node

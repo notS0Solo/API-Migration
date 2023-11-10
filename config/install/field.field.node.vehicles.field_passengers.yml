@@ -4,8 +4,6 @@ dependencies:
   config:
     - field.storage.node.field_passengers
     - node.type.vehicles
-_core:
-  default_config_hash: ISgPx8KGo9-xarI9wNe6jHs2njF-R5vJD0Z1D21dLW8
 id: node.vehicles.field_passengers
 field_name: field_passengers
 entity_type: node
