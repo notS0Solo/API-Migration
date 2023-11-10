@@ -5,7 +5,7 @@ dependencies:
     - field.storage.node.field_eye_color
     - node.type.people
 _core:
-  default_config_hash: _ualPwkm3DQqmd112ZsPyVRzpAp3DWAq3ezrZMhzncM
+  default_config_hash: 5JNCiSeu06gzAeeajJiyqAfJo1QoHXvdVMIPBXT-hak
 id: node.people.field_eye_color
 field_name: field_eye_color
 entity_type: node
