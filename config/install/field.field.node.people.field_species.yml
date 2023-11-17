@@ -10,7 +10,7 @@ field_name: field_species
 entity_type: node
 bundle: people
 label: Species
-description: 'A list of species that this person belongs to'
+description: 'A list of species that this person belongs to.'
 required: false
 translatable: false
 default_value: {  }
