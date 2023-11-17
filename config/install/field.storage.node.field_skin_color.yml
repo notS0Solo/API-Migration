@@ -3,6 +3,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: msB96rMaXO5OwbjOBacIak6RrY3sHDRR1Fem_490Zrs
 id: node.field_skin_color
 field_name: field_skin_color
 entity_type: node
