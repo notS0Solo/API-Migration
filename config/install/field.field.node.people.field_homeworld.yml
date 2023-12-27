@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_homeworld
+    - node.type.people
+    - node.type.planets
+id: node.people.field_homeworld
+field_name: field_homeworld
+entity_type: node
+bundle: people
+label: Homeworld
+description: 'The planet that this person was born on or inhabits.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      planets: planets
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

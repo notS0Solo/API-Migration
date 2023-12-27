@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_birth_year
+    - node.type.people
+id: node.people.field_birth_year
+field_name: field_birth_year
+entity_type: node
+bundle: people
+label: 'Birth Year'
+description: 'The birth year of the person. In-Universe Standard-BBY/ABY Before Battle of Yavin/After Battle of Yavin  Ex. 19BBY'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

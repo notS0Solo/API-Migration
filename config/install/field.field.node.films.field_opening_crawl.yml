@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_opening_crawl
+    - filter.format.plain_text
+    - node.type.films
+  module:
+    - text
+id: node.films.field_opening_crawl
+field_name: field_opening_crawl
+entity_type: node
+bundle: films
+label: 'Opening Crawl'
+description: 'The opening paragraphs at the beginning of this film.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats:
+    - plain_text
+field_type: text_with_summary

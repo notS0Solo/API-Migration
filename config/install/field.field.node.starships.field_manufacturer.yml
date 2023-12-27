@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_manufacturer
+    - node.type.starships
+id: node.starships.field_manufacturer
+field_name: field_manufacturer
+entity_type: node
+bundle: starships
+label: Manufacturer
+description: 'The manufacturer of this starship. Comma separated if more than one.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,145 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.starships.field_cargo_capacity
+    - field.field.node.starships.field_consumables
+    - field.field.node.starships.field_cost_in_credits
+    - field.field.node.starships.field_crew
+    - field.field.node.starships.field_films
+    - field.field.node.starships.field_hyperdrive_rating
+    - field.field.node.starships.field_length
+    - field.field.node.starships.field_manufacturer
+    - field.field.node.starships.field_max_atmospheric_speed
+    - field.field.node.starships.field_model
+    - field.field.node.starships.field_passengers
+    - field.field.node.starships.field_pilots
+    - field.field.node.starships.field_starship_class
+    - field.field.node.starships.field_url
+    - node.type.starships
+id: node.starships.default
+targetEntityType: node
+bundle: starships
+mode: default
+content:
+  field_cargo_c:
+    type: number
+    weight: 10
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_consum:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_cost_in_credits:
+    type: number
+    weight: 4
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_crew:
+    type: number
+    weight: 6
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_films:
+    type: entity_reference_autocomplete
+    weight: 12
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_hyperdrive_rating:
+    type: number
+    weight: 9
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_length:
+    type: number
+    weight: 5
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_manufacturer:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_max_atmospheric_speed:
+    type: number
+    weight: 8
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_model:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_passen:
+    type: number
+    weight: 7
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_pilots:
+    type: entity_reference_autocomplete
+    weight: 15
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_starship_c:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_cargo_capacity: true
+  field_consumables: true
+  field_passengers: true
+  field_starship_class: true
+  field_url: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

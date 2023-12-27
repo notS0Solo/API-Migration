@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_crew
+    - node.type.vehicles
+id: node.vehicles.field_crew
+field_name: field_crew
+entity_type: node
+bundle: vehicles
+label: Crew
+description: 'The number of personnel needed to run or pilot this vehicle.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

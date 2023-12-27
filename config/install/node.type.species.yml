@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Species
+type: species
+description: 'A list of Species Resources, using data from The Star Wars API(SWAPI).'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

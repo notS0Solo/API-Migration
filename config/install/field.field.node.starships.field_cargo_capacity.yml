@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cargo_capacity
+    - node.type.starships
+id: node.starships.field_cargo_capacity
+field_name: field_cargo_capacity
+entity_type: node
+bundle: starships
+label: 'Cargo Capacity'
+description: 'The maximum number of kilograms that this starship can transport.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: kg
+field_type: integer
